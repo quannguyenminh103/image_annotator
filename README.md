@@ -33,7 +33,8 @@ The application should be popped up. If not, ask Quan.
 2) GMDB Dataset
 - It's simply a dataset that contains more than 7,000 images of patients with rare diseases. One patient may have multiple images but in terms of longitudal. 
 - Each image will have predefined phenotypes, which may be incorrect. Your goal is to fix these errors and label the regions.
-- You can access the image here f"/mnt/isilong/wang_lab/quanprojects/MedicalDBs/GMDB/gmdb_crops_v1.0.9/gmdb_crops/{image_id}_aligned.jpg" (I'd recommend you cloning these images to your local directory)
+- You can access the image here https://chop365-my.sharepoint.com/:f:/r/personal/nguyenqm_chop_edu/Documents/Shared/GMDB/image_ann?csf=1&web=1&e=ZKZGGu
+- You should download each folder and annotate batch by batch.
 - You can also apply for GMDB access or send Quan (nguyenqm@chop.edu) for additional details.
 3) Assignment
 - First, you need to open the labelme window and upload the image for annotating
