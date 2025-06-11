@@ -38,8 +38,12 @@ The application should be popped up. If not, ask Quan.
 3) Assignment
 - First, you need to open the labelme window and upload the image for annotating
 - Each of them will be assigned for hundreds to thousands of images (which may take one min in average for a patient's image).
-- You should clone our github here: 
-- Open view_image.ipynb and provide the image_id (filename) in the 3rd cell. Make sure that you provide the correct filename that you use for labelme 
+- You should access google colab here: https://colab.research.google.com/drive/19zJ4HHfw8S18OiRAJcxZVAuLJoqu1VuN?usp=sharing
+- You should download the phenotypic information from gmdb_phenogpt2.csv file (sent via email). Then upload on google colab.
+- Provide the image_id (filename) in the 3rd cell. Make sure that you provide the correct filename that you use for labelme.
+- If the cell is error or returns '{}', this means there is no predefined phenotypes for this patient, please annotate them
+- If the cell returns some phenotypes, they are the predefined phenotypes. Sometimes, they are correct while sometimes not. So, you should fix the error if you found it. Otherwise, just annotate the affected area for them.
+
 4) Output
 - We would like to check whether the predefined phenotypes are correct or not (you can search google for confirmation).
 - In addition, you should create a polygon/color the affected area for the corresponding phenotypes.
