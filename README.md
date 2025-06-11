@@ -2,11 +2,17 @@
 1) Set up labelme (https://labelme.io/)
 - You should set up a conda environment and then install labelme on command line
 - You can follow the following template:
+  
 conda create -n phenogpt2 python=3.11
+
 conda activate phenogpt2
+
 conda install pandas numpy matplotlib PIL
+
 pip install labelme
+
 pip install opencv-python-headless
+
 pip install --upgrade pyqt5_tools
 
 then simply type labelme on the terminal line, a window will be popped up
@@ -24,6 +30,7 @@ then simply type labelme on the terminal line, a window will be popped up
 - We would like to check whether the predefined phenotypes are correct or not (you can search google for confirmation).
 - In addition, you should create a polygon/color the affected area for the corresponding phenotypes.
     For example: if patient presents palate cleft, you should shade the cleft area and name the cluster to be 'cleft palate'.
+  
     The name of the cluster has to be from the list of Human Phenotype Ontology database. You can access https://hpo.jax.org/
 - If the term is incorrectly defined, you need to figure out what the correct term for this phenotype and assign the correct name. 
 - Once you finish annotating one image, please save the output as the JSON file and rename it to 'filename_annotated.json'
