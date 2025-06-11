@@ -2,7 +2,8 @@
 1) Set up labelme (https://labelme.io/)
 - You should set up a conda environment and then install labelme on command line
 - You can follow the following template:
-  
+///
+
 conda create -n phenogpt2 python=3.11
 
 conda activate phenogpt2
@@ -15,7 +16,20 @@ pip install opencv-python-headless
 
 pip install --upgrade pyqt5_tools
 
-then simply type labelme on the terminal line, a window will be popped up
+labelme
+
+///
+Next time, when you come back for annotating.
+
+You just need to open terminal line, copy and paste these 2 lines:
+///
+
+conda activate phenogpt2
+
+labelme
+
+///
+The application should be popped up. If not, ask Quan.
 2) GMDB Dataset
 - It's simply a dataset that contains more than 7,000 images of patients with rare diseases. One patient may have multiple images but in terms of longitudal. 
 - Each image will have predefined phenotypes, which may be incorrect. Your goal is to fix these errors and label the regions.
